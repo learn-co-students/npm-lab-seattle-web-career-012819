@@ -1,0 +1,17 @@
+{
+  "name": "npm-lab-seattle-web-career-012819",
+  "version": "1.0.0",
+  "description": "just doing the damn thing",
+  "main": "index.js",
+  "repository": "git@github.com:MoreSaltMoreLemon/npm-lab-seattle-web-career-012819.git",
+  "author": "Ezra Schwepker <ezraschwepker@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "dependencies": {
+    "learn-browser": "^0.1.24",
+    "moment": "^2.24.0"
+  }
+}
