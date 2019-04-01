@@ -1,0 +1,26 @@
+{
+  "name": "npm-lab-seattle-web-career-012819",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "dependencies": {
+    "learn-browser": "^0.1.17",
+    "moment": "^2.24.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nat-Reid/npm-lab-seattle-web-career-012819.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nat-Reid/npm-lab-seattle-web-career-012819/issues"
+  },
+  "homepage": "https://github.com/Nat-Reid/npm-lab-seattle-web-career-012819#readme"
+}
